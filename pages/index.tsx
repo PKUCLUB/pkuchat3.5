@@ -16,13 +16,13 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center">
         <Markdown
           disableCopy
-          children={`### My ChatGPT - 未名俱乐部聊天机器人
+          children={`### 未名俱乐部 - My ChatGPT
 
-My ChatGPT是一款基于OpenAI官方ChatGPT API开发的个人聊天机器人站点，能够帮助您在本土网络下与ChatGPT官方聊天机器人互动并获得信息。
+My ChatGPT是未名俱乐部为您提供的一款聊天机器人站点，它基于OpenAI官方的ChatGPT API开发而成，能够帮助您在本土网络环境下，实现与ChatGPT官方聊天机器人自由互动，并获得广泛信息。
 
-感谢原作者[Gabriel Wu](https://github.com/lucifer1004)提供技术支持。
+未名俱乐部是由北大、清华校友发起，包含众多海内外知名高校校友的高端交流平台，欢迎您的加入！我们的微信公众号ID：PKUCLUB，联系人：pkuboyata
 
-`}
+感谢原作者[Gabriel Wu](https://github.com/lucifer1004)提供技术支持。`}
         />
         <Button
           onClick={() => {
